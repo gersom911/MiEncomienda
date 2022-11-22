@@ -1,0 +1,21 @@
+{% if messages %}
+  {% for m in messages %}  
+
+      <script>
+           Swal.fire({
+               title: 'Felicitaciones ',
+               text: '{{m}} ',
+               icon: 'éxito',
+               confirmButtonColor: '#0dcaf0',
+               confirmButtonText: "OK!",
+               backdrop:'swal2-backdrop-show',
+               showLoaderOnConfirm:true,
+               
+  
+
+                                       }) 
+
+                                  
+      </script>
+      {% endfor %}  
+    {% endif %}  

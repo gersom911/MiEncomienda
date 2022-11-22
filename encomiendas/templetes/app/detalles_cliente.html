@@ -1,0 +1,71 @@
+{%extends 'app/base.html'%} 
+
+
+
+
+
+{% load crispy_forms_tags %}
+
+{% load static %}
+
+{% block contenido%}
+<br>
+
+<div class="container">
+    <div class="row">
+            <div class="col-lg-12">
+                <div  class="table-responsive">        
+                   
+                        {% for p in entity%}
+                        <h4>nombre del cliente:</h4>
+                     
+                           <p>{{p.nombre_envia }}</p>
+                           <br>
+                           <h4>Teléfono del remitente:</h4>
+                     
+                           <p>{{p.telefono_envia }}</p>
+                           <br>
+                           <h4>Dirección de salida:</h4>
+                     
+                           <p>{{p.direccion_salida }}</p>
+                           <br>
+                           <h4>punto de referencia:</h4>
+                     
+                           <p>{{p.punto_referencia_salida }}</p>
+                           <br>
+                           <h4>nombre del que recibe:</h4>
+                     
+                           <p>{{p.nombre_recibe  }}</p>
+                           <br>
+                           <h4>Teléfono de quien recibe:</h4>
+                     
+                           <p>{{p.telefono_recibe  }}</p>
+                           <br>
+                           
+                           <h4>Dirección de llegada:</h4>
+                     
+                           <p>{{p.dirección_llegada }}</p>
+                           <br>
+                           <h4>Punto de referebcia llegada:</h4>
+                     
+                           <p>{{ p.dirección_llegada  }}</p>
+                           <br>
+                                       
+                           <h4>Estado :</h4>
+                           <p>{{ p.estado  }}</p>
+                          
+                           <br>
+
+                       
+                                                       
+             
+
+              
+                   {% endfor%}
+                </div>
+            </div>
+    </div>  
+</div>    
+
+
+{% endblock %}

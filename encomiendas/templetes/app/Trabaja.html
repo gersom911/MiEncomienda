@@ -1,0 +1,62 @@
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+       <title>Ingreso al sistema</title>
+       {% load crispy_forms_tags %}
+   </head>
+   <body>   
+
+ 
+
+
+    {% load crispy_forms_tags %}
+    {% load static %}
+
+   
+
+
+    <div class="body">
+        <div class="row my-5">
+            <div class="col-12 col-md-6 offset-md-3">
+                <div class="cuerpo">
+                    <div class="card-body">
+                        <h2>Ingrese Datos</h2>
+                        <hr>
+                        <form  action="" method="post" enctype ="multipart/form-data">
+                            {% csrf_token %}
+   
+                            {{form|crispy }}
+                           
+                                            
+                            <input type="submit" value="Enviar" class="btn btn-lg btn btn-outline-secondary float-right">
+                           <a class="btn btn-outline-secondary btn-lg float-center"href="{% url 'index'%}">Inicio</a>
+                           
+                          </div>
+
+                         </form>
+                         {{mensaje}}
+<table id="tablacontactos">
+    
+</table>
+                       
+                </div>
+               
+            </div>
+
+        </div>
+
+    </div>
+ 
+   
+<!-- formato de ingreso end -->
+
+
+<!-- recapcha: <!-- formato de ingreso end --> -->
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="#" />  
+
+    {% block title%}
+
+
+    {% endblock %} 
+
+  
+    {% block js%}
+
+
+    {% endblock %} 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'app/table/bootstrap/css/bootstrap.min.css'%}" >
+    <!-- CSS personalizado --> 
+   
+    <link rel="stylesheet" href="{% static 'app/css/main.css'%}">  
+      
+    <!--datables CSS básico-->
+    <link rel="stylesheet" type="text/css" href="{% static 'app/table/datatables/datatables.min.css'%}"/> 
+    <!--datables estilo bootstrap 4 CSS-->  
+    <link rel="stylesheet"  type="text/css" href="{% static 'app/table/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css'%}">
+           
+    <!--font awesome con CDN-->  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
+    <!--css de login--> 
+    <link href="{% static 'app/css/style.css'%}" rel="stylesheet">
+  </head>
+  {% include 'app/layout/header.html' %}
+ 
+  <body> 
+    
+
+    {% block contenido%}
+
+
+    {% endblock %} 
+    
+      
+{% include 'app/layout/footer.html' %}
+{% include 'app/layout/mensajes.html' %}
+
+      
+        
+      </body>
+    </html>

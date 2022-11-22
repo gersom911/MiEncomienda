@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+   
+    <!-- Website Title -->
+    {% block title%}
+
+
+    {% endblock %} 
+
+   
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="{% static 'exterior/css/bootstrap.css'%}"  rel="stylesheet">  
+    
+    <link href="{% static 'exterior/css/fontawesome-all.css'%}" rel="stylesheet"> 
+    <link href="{% static 'exterior/css/swiper.css'%}" rel="stylesheet">
+	<link href="{% static 'exterior/css/magnific-popup.css'%}"rel="stylesheet">
+    
+	<link href="{% static 'exterior/css/styles.css'%}" rel="stylesheet">
+</head>
+	
+<body data-spy="scroll" data-target=".fixed-top">
+    {% include 'app/layoutExterior/navbar.html' %}
+    <div> 
+    {% block contenido%}
+
+
+    {% endblock %} 
+</div>
+
+
+    <div id="contenido">
+        {% if messages %}
+
+            {% for m in messages %}
+
+                {{m}}
+
+            {% endfor %}
+
+        {%endif%}
+
+
+          
+
+    </div>
+  
+
+
+    
+
+    
+
+
+    {% include 'app/layoutExterior/footer.html' %}
+
+
+    
+</body>
+</html>
