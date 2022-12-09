@@ -13,5 +13,9 @@ Portada
 
 [![ENCOMIENDA1.jpg](https://i.postimg.cc/hjmsNHrg/ENCOMIENDA1.jpg)](https://postimg.cc/TLRnDNFH)
 
-pagina del conductor
+página del administrador de usuarios
+
 [![ENCOMIENDA5.png](https://i.postimg.cc/YCdhwR2s/ENCOMIENDA5.png)](https://postimg.cc/pmn2fDFf)
+
+ingreso del conductor
+[![ENCOMIENDA2.png](https://i.postimg.cc/P52WQ4rq/ENCOMIENDA2.png)](https://postimg.cc/9DwwWy93)
