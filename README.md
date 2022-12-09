@@ -26,3 +26,5 @@ Página de encargos del conductor
 
 panel de control de usuario super usuario
 [![ENCOMIENDA3.png](https://i.postimg.cc/vZNzdhRN/ENCOMIENDA3.png)](https://postimg.cc/G4vYFkmF)
+ Panel de asignación de roles y grupos
+ [![ENCOMIENDA5.png](https://i.postimg.cc/m26Mcrdc/ENCOMIENDA5.png)](https://postimg.cc/kBKDz7P9)
