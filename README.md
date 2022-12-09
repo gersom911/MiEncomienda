@@ -18,4 +18,11 @@ página del administrador de usuarios
 [![ENCOMIENDA5.png](https://i.postimg.cc/YCdhwR2s/ENCOMIENDA5.png)](https://postimg.cc/pmn2fDFf)
 
 ingreso del conductor
+
 [![ENCOMIENDA2.png](https://i.postimg.cc/P52WQ4rq/ENCOMIENDA2.png)](https://postimg.cc/9DwwWy93)
+
+Página de encargos del conductor
+[![ENCOMIENDA5.jpg](https://i.postimg.cc/XJZtbqDw/ENCOMIENDA5.jpg)](https://postimg.cc/7GkK1H46)
+
+panel de control de usuario super usuario
+[![ENCOMIENDA3.png](https://i.postimg.cc/vZNzdhRN/ENCOMIENDA3.png)](https://postimg.cc/G4vYFkmF)
