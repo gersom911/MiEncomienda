@@ -8,3 +8,4 @@ A los conductores le peermite cambiar de estado de descanso a trabajar, y observ
 admita que los conductores tengan desde bicicletas hasta camiones, que permita satisfacer la necesidad del usuario. Fue elaborado pensando en la realidad de la Ciudad de Valledupar pero puede ser aplicado a muchos entornos.
 
 La Clave era establecer un siste cercano y local para envío. Espero que les sirva. Saludos
+[![ENCOMIENDA1.jpg](https://i.postimg.cc/hjmsNHrg/ENCOMIENDA1.jpg)](https://postimg.cc/TLRnDNFH)
